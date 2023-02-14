@@ -14,7 +14,7 @@ for j in range(T):
             if (f[k] <= n):
                 t = f[k]
 
-        n = n - t
+        n = n - t         #주석 추가해서 올리기 
         array.append(t)
         array.sort()
 
